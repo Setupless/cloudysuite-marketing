@@ -1,0 +1,18 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Riverbend School//Calendar//EN
+METHOD:REQUEST
+BEGIN:VEVENT
+UID:riverbend-walkthrough-2026@riverbend-school.example
+SEQUENCE:0
+DTSTAMP:{{stamp}}
+DTSTART;TZID={{tz}}:{{at:3@10:00}}
+DTEND;TZID={{tz}}:{{at:3@11:00}}
+SUMMARY:Riverbend schoolyard walkthrough
+LOCATION:Riverbend School, meet at the front office
+DESCRIPTION:A walk around the schoolyard with the grounds team and two teachers to go over the concept on site.
+ORGANIZER;CN=Grace Lindqvist:mailto:grace@riverbend-school.example
+ATTENDEE;CN=Grace Lindqvist;PARTSTAT=ACCEPTED:mailto:grace@riverbend-school.example
+ATTENDEE;CN=Maya Chen;PARTSTAT=NEEDS-ACTION;RSVP=TRUE:mailto:maya@example.com
+END:VEVENT
+END:VCALENDAR

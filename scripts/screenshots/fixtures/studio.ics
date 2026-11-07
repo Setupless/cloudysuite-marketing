@@ -1,0 +1,71 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Saltbush Studio//Studio calendar//EN
+BEGIN:VEVENT
+UID:studio-standup@example.com
+DTSTAMP:{{stamp}}
+DTSTART;TZID={{tz}}:{{at:0@09:00}}
+DTEND;TZID={{tz}}:{{at:0@09:15}}
+RRULE:FREQ=WEEKLY;BYDAY=MO,TU,WE,TH,FR
+SUMMARY:Studio stand-up
+LOCATION:Studio table
+END:VEVENT
+BEGIN:VEVENT
+UID:wgp-client-review@example.com
+DTSTAMP:{{stamp}}
+DTSTART;TZID={{tz}}:{{at:1@14:00}}
+DTEND;TZID={{tz}}:{{at:1@15:00}}
+SUMMARY:Wattle Grove Park client review
+LOCATION:Meeting room
+DESCRIPTION:Concept plan rev C and the planting palette. The council's parks team joins online.
+X-GOOGLE-CONFERENCE:https://meet.google.com/kfr-wqzd-npe
+END:VEVENT
+BEGIN:VEVENT
+UID:harbour-check-in@example.com
+DTSTAMP:{{stamp}}
+DTSTART;TZID={{tz}}:{{at:0@13:30}}
+DTEND;TZID={{tz}}:{{at:0@14:30}}
+SUMMARY:Project check-in: Harbour Steps
+LOCATION:Meeting room
+END:VEVENT
+BEGIN:VEVENT
+UID:banksia-site-visit@example.com
+DTSTAMP:{{stamp}}
+DTSTART;TZID={{tz}}:{{at:2@08:30}}
+DTEND;TZID={{tz}}:{{at:2@10:30}}
+SUMMARY:Site visit: Banksia Lane courtyard
+LOCATION:Banksia Lane courtyard
+DESCRIPTION:Check the drainage pit levels and the two street trees.
+END:VEVENT
+BEGIN:VEVENT
+UID:nursery-workshop@example.com
+DTSTAMP:{{stamp}}
+DTSTART;TZID={{tz}}:{{at:2@13:00}}
+DTEND;TZID={{tz}}:{{at:2@14:30}}
+SUMMARY:Planting workshop with Coastal Natives
+LOCATION:Studio
+END:VEVENT
+BEGIN:VEVENT
+UID:design-crit@example.com
+DTSTAMP:{{stamp}}
+DTSTART;TZID={{tz}}:{{at:3@15:30}}
+DTEND;TZID={{tz}}:{{at:3@16:30}}
+SUMMARY:Design crit: Harbour Steps
+LOCATION:Studio table
+END:VEVENT
+BEGIN:VEVENT
+UID:tom-leave@example.com
+DTSTAMP:{{stamp}}
+DTSTART;VALUE=DATE:{{day:4}}
+DTEND;VALUE=DATE:{{day:5}}
+SUMMARY:Tom on leave
+END:VEVENT
+BEGIN:VEVENT
+UID:studio-lunch@example.com
+DTSTAMP:{{stamp}}
+DTSTART;TZID={{tz}}:{{at:4@12:30}}
+DTEND;TZID={{tz}}:{{at:4@13:30}}
+SUMMARY:Studio lunch
+LOCATION:Corner Kitchen
+END:VEVENT
+END:VCALENDAR

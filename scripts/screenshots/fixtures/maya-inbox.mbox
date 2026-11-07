@@ -1,0 +1,362 @@
+From tom@example.com {{mbox:1265}}
+From: Tom Okafor <tom@example.com>
+To: Maya Chen <maya@example.com>
+Subject: Wattle Grove planting plan, rev C
+Date: {{date:1265}}
+Message-ID: <wgp-planting-1@example.com>
+MIME-Version: 1.0
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: 8bit
+
+Hi Maya,
+
+Rev C of the planting plan is in Projects > Wattle Grove Park.
+
+The main change is along the creek edge. I swapped the lomandra for a mix of carex and dianella, which should cope better with the wet patch Lucas found on the last site visit. I also pulled the two bottlebrushes back from the path so they don't crowd the new bench.
+
+Let me know if you want anything else changed before the client review.
+
+Tom
+
+From maya@example.com {{mbox:1190}}
+From: Maya Chen <maya@example.com>
+To: Tom Okafor <tom@example.com>
+Subject: Re: Wattle Grove planting plan, rev C
+Date: {{date:1190}}
+Message-ID: <wgp-planting-2@example.com>
+In-Reply-To: <wgp-planting-1@example.com>
+References: <wgp-planting-1@example.com>
+MIME-Version: 1.0
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: 8bit
+
+Thanks Tom, this reads much better.
+
+One question: how tall does the dianella get by the seating? The school wants a clear line of sight from the bench to the play area.
+
+Maya
+
+From tom@example.com {{mbox:96}}
+From: Tom Okafor <tom@example.com>
+To: Maya Chen <maya@example.com>
+Subject: Re: Wattle Grove planting plan, rev C
+Date: {{date:96}}
+Message-ID: <wgp-planting-3@example.com>
+In-Reply-To: <wgp-planting-2@example.com>
+References: <wgp-planting-1@example.com> <wgp-planting-2@example.com>
+MIME-Version: 1.0
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: 8bit
+
+Good question. I checked with the nursery this morning: the variety we've picked tops out at about 60 cm, so it stays below the bench line.
+
+I've added a note to the plan and updated the schedule to match. Happy to walk the client through it at the review.
+
+Tom
+
+From accounts@kiln-supply.example {{mbox:141}}
+From: Kiln Supply Accounts <accounts@kiln-supply.example>
+To: maya@example.com
+Subject: Invoice INV-20431 from Kiln Supply
+Date: {{date:141}}
+Message-ID: <inv-20431@kiln-supply.example>
+MIME-Version: 1.0
+Content-Type: multipart/mixed; boundary="kiln-20431"
+
+--kiln-20431
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: 8bit
+
+Hello Saltbush Studio,
+
+Please find attached invoice INV-20431 for the terracotta edging and pavers delivered to Banksia Lane.
+
+Amount due: $2,486.50
+Due date: 30 days from the invoice date
+
+Thank you for your business.
+
+Kiln Supply Accounts
+
+--kiln-20431
+Content-Type: application/pdf; name="INV-20431.pdf"
+Content-Disposition: attachment; filename="INV-20431.pdf"
+Content-Transfer-Encoding: base64
+
+{{file:INV-20431.pdf}}
+--kiln-20431--
+
+From planning@council.example {{mbox:302}}
+From: Planning Services <planning@council.example>
+To: maya@example.com
+Subject: PA-2026/0417: request for further information
+Date: {{date:302}}
+Message-ID: <pa-2026-0417-rfi@council.example>
+MIME-Version: 1.0
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: 8bit
+
+Dear Ms Chen,
+
+Thank you for the planning permit application for the Banksia Lane courtyard (PA-2026/0417).
+
+Before we can assess it, please send:
+
+1. A tree protection plan for the two street trees on the frontage.
+2. Updated stormwater calculations for the new paved area.
+
+Please reply within 30 days. The application is on hold until we receive this information.
+
+Kind regards,
+
+Planning Services
+
+From priya@example.com {{mbox:404}}
+From: Priya Raman <priya@example.com>
+To: Maya Chen <maya@example.com>
+Cc: Sione Tuilagi <sione@example.com>
+Subject: Banksia Lane site photos
+Date: {{date:404}}
+Message-ID: <banksia-photos-1@example.com>
+MIME-Version: 1.0
+Content-Type: multipart/mixed; boundary="banksia-photos"
+
+--banksia-photos
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: 8bit
+
+Hi Maya,
+
+Two photos from this morning. The drainage pit by the back gate sits lower than the survey shows, so I've marked it up for Sione.
+
+Priya
+
+--banksia-photos
+Content-Type: image/jpeg; name="Banksia Lane back gate.jpg"
+Content-Disposition: attachment; filename="Banksia Lane back gate.jpg"
+Content-Transfer-Encoding: base64
+
+{{file:Banksia Lane back gate.jpg}}
+--banksia-photos
+Content-Type: image/jpeg; name="Banksia Lane drainage pit.jpg"
+Content-Disposition: attachment; filename="Banksia Lane drainage pit.jpg"
+Content-Transfer-Encoding: base64
+
+{{file:Banksia Lane drainage pit.jpg}}
+--banksia-photos--
+
+From lucas@example.com {{mbox:618}}
+From: Lucas Ferreira <lucas@example.com>
+To: Maya Chen <maya@example.com>
+Subject: Nursery availability for the spring order
+Date: {{date:618}}
+Message-ID: <nursery-spring-1@example.com>
+MIME-Version: 1.0
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: 8bit
+
+Hi Maya,
+
+Coastal Natives can supply everything on the Wattle Grove list except the kangaroo paw, which won't be ready until late January. They've offered a substitute in the same colour, or we hold that bed back and plant it in the second stage.
+
+I'd lean towards holding it back. Your call.
+
+Lucas
+
+From ellie@example.com {{mbox:705}}
+From: Ellie Novak <ellie@example.com>
+To: Maya Chen <maya@example.com>
+Subject: Catering for the client workshop
+Date: {{date:705}}
+Message-ID: <workshop-catering-1@example.com>
+MIME-Version: 1.0
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: 8bit
+
+Hi Maya,
+
+I'm ordering lunch for the Riverbend workshop. I have 14 people so far, two vegetarian and one gluten free. Do you know of anyone else coming from the school?
+
+Ellie
+
+From newsletter@landscape-notes.example {{mbox:905}}
+From: Landscape Practice Notes <newsletter@landscape-notes.example>
+To: maya@example.com
+Subject: November: designing for heat, and a new standard for play spaces
+Date: {{date:905}}
+Message-ID: <lpn-2026-11@landscape-notes.example>
+List-Id: Landscape Practice Notes <notes.landscape-notes.example>
+List-Unsubscribe: <https://landscape-notes.example/unsubscribe>
+MIME-Version: 1.0
+Content-Type: multipart/alternative; boundary="lpn-nov"
+
+--lpn-nov
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: 8bit
+
+Landscape Practice Notes, November
+
+Designing for heat: shade, surfaces, and what the data says. A new standard for play spaces: the changes that matter for designers. From the field: a schoolyard rebuilt around its oldest tree.
+
+--lpn-nov
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: 8bit
+
+<html><body style="font-family: Georgia, serif; color: #2b2b2b; max-width: 560px;">
+<h1 style="font-size: 22px;">Landscape Practice Notes</h1>
+<p style="color: #666;">November</p>
+<h2 style="font-size: 18px;">Designing for heat</h2>
+<p>Shade, surfaces, and what the data says about cooler public spaces.</p>
+<h2 style="font-size: 18px;">A new standard for play spaces</h2>
+<p>The changes that matter for designers, and when they apply.</p>
+<h2 style="font-size: 18px;">From the field</h2>
+<p>A schoolyard rebuilt around its oldest tree.</p>
+</body></html>
+
+--lpn-nov--
+
+From sione@example.com {{mbox:1104}}
+From: Sione Tuilagi <sione@example.com>
+To: Maya Chen <maya@example.com>
+Subject: Retaining wall details for review
+Date: {{date:1104}}
+Message-ID: <retaining-wall-1@example.com>
+MIME-Version: 1.0
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: 8bit
+
+Hi Maya,
+
+The retaining wall details for Harbour Steps are ready for a check before I send them to the engineer. They're in Projects > Harbour Steps Plaza > Details. The sandstone face is now 450 mm thick to match the existing wall.
+
+Could you have a look by the end of the week?
+
+Sione
+
+From sales@ridgeline-stone.example {{mbox:1402}}
+From: Ridgeline Stone Sales <sales@ridgeline-stone.example>
+To: maya@example.com
+Subject: Quote Q-1182: sandstone pavers for Harbour Steps
+Date: {{date:1402}}
+Message-ID: <q-1182@ridgeline-stone.example>
+MIME-Version: 1.0
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: 8bit
+
+Hi Maya,
+
+Thanks for the enquiry. Our quote for 180 square metres of honed sandstone pavers, 600 x 300 x 30 mm, is $21,960 plus delivery.
+
+Lead time is currently four weeks from order. The quote is valid for 60 days.
+
+Regards,
+
+Ridgeline Stone Sales
+
+From hannah@example.com {{mbox:2010}}
+From: Hannah Byrne <hannah@example.com>
+To: Maya Chen <maya@example.com>
+Subject: Harbour Steps fee proposal
+Date: {{date:2010}}
+Message-ID: <harbour-fee-1@example.com>
+MIME-Version: 1.0
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: 8bit
+
+Hi Maya,
+
+Draft fee proposal for Harbour Steps is in the project folder. I've split it into concept, design development, and documentation, with the site visits listed separately so the client can see them.
+
+Hannah
+
+From maya@example.com {{mbox:1820}}
+From: Maya Chen <maya@example.com>
+To: Hannah Byrne <hannah@example.com>
+Subject: Re: Harbour Steps fee proposal
+Date: {{date:1820}}
+Message-ID: <harbour-fee-2@example.com>
+In-Reply-To: <harbour-fee-1@example.com>
+References: <harbour-fee-1@example.com>
+MIME-Version: 1.0
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: 8bit
+
+Thanks Hannah. Splitting out the site visits is a good idea. Can we add one more visit during construction? They always want it in the end.
+
+Maya
+
+From hannah@example.com {{mbox:1515}}
+From: Hannah Byrne <hannah@example.com>
+To: Maya Chen <maya@example.com>
+Subject: Re: Harbour Steps fee proposal
+Date: {{date:1515}}
+Message-ID: <harbour-fee-3@example.com>
+In-Reply-To: <harbour-fee-2@example.com>
+References: <harbour-fee-1@example.com> <harbour-fee-2@example.com>
+MIME-Version: 1.0
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: 8bit
+
+Done, and I've updated the total. It's ready to send whenever you are.
+
+Hannah
+
+From ravi@example.com {{mbox:1660}}
+From: Ravi Patel <ravi@example.com>
+To: Maya Chen <maya@example.com>
+Subject: Plotter service
+Date: {{date:1660}}
+Message-ID: <plotter-service-1@example.com>
+MIME-Version: 1.0
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: 8bit
+
+Hi Maya,
+
+The technician is coming to service the plotter first thing on Monday, so it will be out for the morning. If anyone needs A1 prints for the client review, please send them to me before then.
+
+Ravi
+
+From grace@riverbend-school.example {{mbox:1745}}
+From: Grace Lindqvist <grace@riverbend-school.example>
+To: Maya Chen <maya@example.com>
+Subject: Invitation: Riverbend schoolyard walkthrough
+Date: {{date:1745}}
+Message-ID: <riverbend-walkthrough-1@riverbend-school.example>
+MIME-Version: 1.0
+Content-Type: multipart/alternative; boundary="riverbend-alt"
+
+--riverbend-alt
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: 8bit
+
+Hi Maya,
+
+Would you walk the schoolyard with our grounds team and two of the teachers? We'd like to go over the concept on site before the school council meets.
+
+Grace Lindqvist
+Business Manager, Riverbend School
+
+--riverbend-alt
+Content-Type: text/calendar; charset=utf-8; method=REQUEST; name="invite.ics"
+Content-Transfer-Encoding: 8bit
+
+{{ics:riverbend-invite.ics}}
+--riverbend-alt--
+
+From grace@riverbend-school.example {{mbox:2290}}
+From: Grace Lindqvist <grace@riverbend-school.example>
+To: Maya Chen <maya@example.com>
+Subject: Thanks for the concept pack
+Date: {{date:2290}}
+Message-ID: <riverbend-thanks-1@riverbend-school.example>
+MIME-Version: 1.0
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: 8bit
+
+Hi Maya,
+
+Thank you for the concept pack. The teachers loved the outdoor classroom under the gums, and the grounds team was glad to see the existing paths kept. We'll send through our comments next week.
+
+Grace
+

@@ -1,0 +1,39 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Saltbush Studio//Maya//EN
+BEGIN:VEVENT
+UID:maya-priya-1-1@example.com
+DTSTAMP:{{stamp}}
+DTSTART;TZID={{tz}}:{{at:0@11:00}}
+DTEND;TZID={{tz}}:{{at:0@11:30}}
+SUMMARY:1:1 with Priya
+END:VEVENT
+BEGIN:VEVENT
+UID:maya-plots@example.com
+DTSTAMP:{{stamp}}
+DTSTART;TZID={{tz}}:{{at:1@10:00}}
+DTEND;TZID={{tz}}:{{at:1@10:30}}
+SUMMARY:Pick up A1 plots from the printer
+END:VEVENT
+BEGIN:VEVENT
+UID:maya-council-call@example.com
+DTSTAMP:{{stamp}}
+DTSTART;TZID={{tz}}:{{at:3@12:00}}
+DTEND;TZID={{tz}}:{{at:3@12:30}}
+SUMMARY:Council pre-lodgement call: PA-2026/0417
+END:VEVENT
+BEGIN:VEVENT
+UID:maya-physio@example.com
+DTSTAMP:{{stamp}}
+DTSTART;TZID={{tz}}:{{at:2@17:00}}
+DTEND;TZID={{tz}}:{{at:2@17:45}}
+SUMMARY:Physio
+END:VEVENT
+BEGIN:VEVENT
+UID:maya-tree-plan@example.com
+DTSTAMP:{{stamp}}
+DTSTART;TZID={{tz}}:{{at:4@10:00}}
+DTEND;TZID={{tz}}:{{at:4@11:30}}
+SUMMARY:Banksia Lane tree protection plan
+END:VEVENT
+END:VCALENDAR

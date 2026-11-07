@@ -610,7 +610,12 @@ html:not(.js) .app-panel + .app-panel {
 }
 
 .frame-setup {
+  max-width: 1040px;
   margin-top: 72px;
+}
+
+.frame-setup .shot {
+  aspect-ratio: 2080 / 1440;
 }
 
 
