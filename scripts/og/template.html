@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en" style="color-scheme: light">
+<head>
+<meta charset="utf-8">
+<link rel="preload" href="../../public/fonts/inter-latin-opsz-normal.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="../../public/styles.css">
+<style>
+  html,
+  body {
+    width: 1200px;
+    height: 630px;
+    overflow: hidden;
+  }
+
+  body {
+    display: flex;
+    flex-direction: column;
+    padding: 72px 80px 76px;
+  }
+
+  .og-brand {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    font-size: 30px;
+    font-weight: 600;
+    letter-spacing: -0.01em;
+  }
+
+  .og-brand img {
+    width: 52px;
+    height: 52px;
+  }
+
+  h1 {
+    max-width: 15em;
+    margin-top: auto;
+    font-size: 72px;
+  }
+
+  .og-address {
+    width: auto;
+    align-self: flex-start;
+    margin-top: 40px;
+    padding: 8px 18px;
+    border-radius: 9px;
+    font-size: 26px;
+  }
+
+  .og-address .icon {
+    width: 22px;
+    height: 22px;
+  }
+</style>
+</head>
+<body>
+  <div class="og-brand"><img src="../../public/icon.svg" alt="">CloudySuite</div>
+  <h1>Mail, calendar, and files on your own Cloudflare account.</h1>
+  <p class="address og-address"><svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M5 13a2 2 0 0 1 2 -2h10a2 2 0 0 1 2 2v6a2 2 0 0 1 -2 2h-10a2 2 0 0 1 -2 -2v-6z"/><path d="M11 16a1 1 0 1 0 2 0a1 1 0 0 0 -2 0"/><path d="M8 11v-4a4 4 0 1 1 8 0v4"/></svg><span>mail.example.com</span></p>
+</body>
+</html>

@@ -1,0 +1,349 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>CloudySuite: mail, calendar, and files on your Cloudflare account</title>
+<meta name="description" content="CloudySuite is an open source workspace for small teams. Deploy Mail, Calendar, and Storage to your own Cloudflare account, at addresses on your own domain.">
+<link rel="canonical" href="https://cloudysuite.com/">
+<meta name="color-scheme" content="light dark">
+<meta name="theme-color" media="(prefers-color-scheme: light)" content="#ffffff">
+<meta name="theme-color" media="(prefers-color-scheme: dark)" content="#1c1c1e">
+<link rel="icon" href="/icon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+<link rel="preload" href="/fonts/inter-latin-opsz-normal.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="/styles.css">
+<script>document.documentElement.classList.add("js")</script>
+<script src="/site.js" defer></script>
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="CloudySuite">
+<meta property="og:url" content="https://cloudysuite.com/">
+<meta property="og:title" content="CloudySuite: mail, calendar, and files on your Cloudflare account">
+<meta property="og:description" content="CloudySuite is an open source workspace for small teams. Deploy Mail, Calendar, and Storage to your own Cloudflare account, at addresses on your own domain.">
+<meta property="og:image" content="https://cloudysuite.com/og.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="The CloudySuite mark and the line Mail, calendar, and files on your own Cloudflare account, above the address mail.example.com.">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="CloudySuite: mail, calendar, and files on your Cloudflare account">
+<meta name="twitter:description" content="CloudySuite is an open source workspace for small teams. Deploy Mail, Calendar, and Storage to your own Cloudflare account, at addresses on your own domain.">
+<meta name="twitter:image" content="https://cloudysuite.com/og.png">
+</head>
+<body>
+<svg class="sprite" aria-hidden="true">
+  <symbol id="i-lock" viewBox="0 0 24 24"><path d="M5 13a2 2 0 0 1 2 -2h10a2 2 0 0 1 2 2v6a2 2 0 0 1 -2 2h-10a2 2 0 0 1 -2 -2v-6z"/><path d="M11 16a1 1 0 1 0 2 0a1 1 0 0 0 -2 0"/><path d="M8 11v-4a4 4 0 1 1 8 0v4"/></symbol>
+  <symbol id="i-mail" viewBox="0 0 24 24"><path d="M3 7a2 2 0 0 1 2 -2h14a2 2 0 0 1 2 2v10a2 2 0 0 1 -2 2h-14a2 2 0 0 1 -2 -2v-10z"/><path d="M3 7l9 6l9 -6"/></symbol>
+  <symbol id="i-calendar" viewBox="0 0 24 24"><path d="M4 7a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v12a2 2 0 0 1 -2 2h-12a2 2 0 0 1 -2 -2v-12z"/><path d="M16 3v4"/><path d="M8 3v4"/><path d="M4 11h16"/><path d="M11 15h1"/><path d="M12 15v3"/></symbol>
+  <symbol id="i-folder" viewBox="0 0 24 24"><path d="M5 4h4l3 3h7a2 2 0 0 1 2 2v8a2 2 0 0 1 -2 2h-14a2 2 0 0 1 -2 -2v-11a2 2 0 0 1 2 -2"/></symbol>
+  <symbol id="i-user-circle" viewBox="0 0 24 24"><path d="M3 12a9 9 0 1 0 18 0a9 9 0 1 0 -18 0"/><path d="M9 10a3 3 0 1 0 6 0a3 3 0 1 0 -6 0"/><path d="M6.168 18.849a4 4 0 0 1 3.832 -2.849h4a4 4 0 0 1 3.834 2.855"/></symbol>
+  <symbol id="i-github" viewBox="0 0 24 24"><path d="M9 19c-4.3 1.4 -4.3 -2.5 -6 -3m12 5v-3.5c0 -1 .1 -1.4 -.5 -2c2.8 -.3 5.5 -1.4 5.5 -6a4.6 4.6 0 0 0 -1.3 -3.2a4.2 4.2 0 0 0 -.1 -3.2s-1.1 -.3 -3.5 1.3a12.3 12.3 0 0 0 -6.2 0c-2.4 -1.6 -3.5 -1.3 -3.5 -1.3a4.2 4.2 0 0 0 -.1 3.2a4.6 4.6 0 0 0 -1.3 3.2c0 4.6 2.7 5.7 5.5 6c-.6 .6 -.6 1.2 -.5 2v3.5"/></symbol>
+</svg>
+
+<a class="skip" href="#main">Skip to content</a>
+
+<header class="site-header">
+  <div class="wrap header-inner">
+    <a class="brand" href="/">
+      <img src="/icon.svg" alt="" width="28" height="28">
+      <span>CloudySuite</span>
+    </a>
+    <nav class="site-nav" aria-label="Main">
+      <ul>
+        <li class="section-link"><a href="#apps">Apps</a></li>
+        <li class="section-link"><a href="#deploy">Deploy</a></li>
+        <li class="section-link"><a href="#cost">Cost</a></li>
+        <li class="section-link"><a href="#limits">Limits</a></li>
+        <li><a class="github" href="https://github.com/Setupless/cloudysuite"><svg class="icon" aria-hidden="true"><use href="#i-github"/></svg>GitHub</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<main id="main">
+  <section class="hero wrap" aria-labelledby="hero-title">
+    <div class="hero-grid">
+      <div>
+        <h1 id="hero-title">Mail, calendar, and files on your own Cloudflare account.</h1>
+        <p class="lede">CloudySuite is an open source workspace for teams of 2 to 100 people. One person deploys it to the organisation's Cloudflare account. Everyone else signs in with a passkey and uses Mail, Calendar, and Storage at addresses on your own domain.</p>
+        <div class="actions">
+          <a class="button" href="https://github.com/Setupless/cloudysuite">View on GitHub</a>
+          <a class="text-link" href="#deploy">How deploying works</a>
+        </div>
+        <p class="status"><strong>Early.</strong> All four apps are built and tested locally. The first release ships once a real deployment has proved them with real mail.</p>
+      </div>
+
+      <section class="addresses" aria-labelledby="addresses-title">
+        <h2 id="addresses-title">Your addresses</h2>
+        <div class="domain-field">
+          <label for="domain">Your domain</label>
+          <input id="domain" type="text" placeholder="example.com" inputmode="url" autocomplete="off" autocapitalize="none" spellcheck="false">
+        </div>
+        <dl class="hosts">
+          <div><dt>auth.<wbr><span data-domain>example.com</span></dt><dd>Accounts and sign-in</dd></div>
+          <div><dt>mail.<wbr><span data-domain>example.com</span></dt><dd>Mail</dd></div>
+          <div><dt>calendar.<wbr><span data-domain>example.com</span></dt><dd>Calendar</dd></div>
+          <div><dt>storage.<wbr><span data-domain>example.com</span></dt><dd>Files</dd></div>
+        </dl>
+        <p class="small">Email addresses end in @<span data-domain>example.com</span>. You can add more domains later.</p>
+      </section>
+    </div>
+
+    <div class="frame frame-hero">
+      <div class="frame-bar"><span class="address"><svg class="icon" aria-hidden="true"><use href="#i-lock"/></svg><span>mail.<wbr><span data-domain>example.com</span></span></span></div>
+      <picture class="shot">
+        <source media="(max-width: 719px) and (prefers-color-scheme: dark)" srcset="/screens/mail-phone-dark.webp" width="780" height="1688">
+        <source media="(max-width: 719px)" srcset="/screens/mail-phone-light.webp" width="780" height="1688">
+        <source media="(prefers-color-scheme: dark)" srcset="/screens/mail-dark.webp" width="2560" height="1600">
+        <img src="/screens/mail-light.webp" width="2560" height="1600" decoding="async" fetchpriority="high" alt="CloudySuite Mail showing an inbox: folders in the sidebar, a list of conversations, and the open conversation in the reading pane.">
+      </picture>
+    </div>
+  </section>
+
+  <section id="apps" class="section wrap" aria-labelledby="apps-title">
+    <h2 id="apps-title">Four apps that share one sign-in</h2>
+    <p class="intro">Each app has its own address and its own switch, so you can turn one off and keep the mail provider you have. They share one directory, so a person you add once can be mailed, invited, and shared with everywhere.</p>
+
+    <div class="tablist" role="tablist" aria-label="Apps">
+      <button type="button" role="tab" id="tab-mail" aria-controls="panel-mail" aria-selected="true" tabindex="0"><svg class="icon" aria-hidden="true"><use href="#i-mail"/></svg>Mail</button>
+      <button type="button" role="tab" id="tab-calendar" aria-controls="panel-calendar" aria-selected="false" tabindex="-1"><svg class="icon" aria-hidden="true"><use href="#i-calendar"/></svg>Calendar</button>
+      <button type="button" role="tab" id="tab-storage" aria-controls="panel-storage" aria-selected="false" tabindex="-1"><svg class="icon" aria-hidden="true"><use href="#i-folder"/></svg>Storage</button>
+      <button type="button" role="tab" id="tab-account" aria-controls="panel-account" aria-selected="false" tabindex="-1"><svg class="icon" aria-hidden="true"><use href="#i-user-circle"/></svg>Account</button>
+    </div>
+
+    <div class="app-panel" role="tabpanel" id="panel-mail" aria-labelledby="tab-mail">
+      <div class="app-copy">
+        <h3>Mail</h3>
+        <p class="host mono">mail.<wbr><span data-domain>example.com</span></p>
+        <p class="instead">Instead of Gmail.</p>
+        <ul class="plain">
+          <li>Conversations, attachments, and search that understands operators like <code>from:</code> and <code>in:trash</code>.</li>
+          <li>Shared mailboxes such as <code>support@</code>, and aliases on any of your domains.</li>
+          <li>Labels and rules that belong to the mailbox, so everyone who shares it sees the same ones.</li>
+          <li>Ten seconds to undo a send. The wait happens on the server, so closing the tab doesn't lose the message.</li>
+          <li>Spam filtering built in. It reads SPF, DKIM, and DMARC, learns from what people mark, and never rejects mail.</li>
+          <li>Installs as an app, with notifications and recent mail saved for reading offline.</li>
+          <li>Bring old mail across from an <code>.mbox</code> file, such as a Google Takeout export.</li>
+        </ul>
+      </div>
+      <div class="frame">
+        <div class="frame-bar"><span class="address"><svg class="icon" aria-hidden="true"><use href="#i-lock"/></svg><span>mail.<wbr><span data-domain>example.com</span></span></span></div>
+        <picture class="shot">
+          <source media="(prefers-color-scheme: dark)" srcset="/screens/mail-dark.webp" width="2560" height="1600">
+          <img src="/screens/mail-light.webp" width="2560" height="1600" loading="lazy" decoding="async" alt="CloudySuite Mail showing an inbox: folders in the sidebar, a list of conversations, and the open conversation in the reading pane.">
+        </picture>
+      </div>
+    </div>
+
+    <div class="app-panel" role="tabpanel" id="panel-calendar" aria-labelledby="tab-calendar" hidden>
+      <div class="app-copy">
+        <h3>Calendar</h3>
+        <p class="host mono">calendar.<wbr><span data-domain>example.com</span></p>
+        <p class="instead">Instead of Google Calendar.</p>
+        <ul class="plain">
+          <li>Today opens on what's next, with who's coming and who hasn't replied.</li>
+          <li>Day, week, and month views, personal and team calendars, and repeating events.</li>
+          <li>Invite colleagues or anyone with an email address. Their replies come back through Mail and update the event.</li>
+          <li>Invitations that arrive in Mail show as a card you can answer from, with Join and Add to my calendar.</li>
+          <li>Import any <code>.ics</code> file.</li>
+        </ul>
+      </div>
+      <div class="frame">
+        <div class="frame-bar"><span class="address"><svg class="icon" aria-hidden="true"><use href="#i-lock"/></svg><span>calendar.<wbr><span data-domain>example.com</span></span></span></div>
+        <picture class="shot">
+          <source media="(prefers-color-scheme: dark)" srcset="/screens/calendar-dark.webp" width="2560" height="1600">
+          <img src="/screens/calendar-light.webp" width="2560" height="1600" loading="lazy" decoding="async" alt="CloudySuite Calendar showing a week of events from personal and team calendars, with the list of calendars in the sidebar.">
+        </picture>
+      </div>
+    </div>
+
+    <div class="app-panel" role="tabpanel" id="panel-storage" aria-labelledby="tab-storage" hidden>
+      <div class="app-copy">
+        <h3>Storage</h3>
+        <p class="host mono">storage.<wbr><span data-domain>example.com</span></p>
+        <p class="instead">Instead of Google Drive.</p>
+        <ul class="plain">
+          <li>Team folders with their own members, and My files for each person.</li>
+          <li>Share with a person or a team as Can view or Can edit. The server enforces Can view, so hiding a button is never the only protection.</li>
+          <li>Uploads resume after a dropped connection.</li>
+          <li>Search, Starred, Shared with me, and Trash.</li>
+          <li>Save a mail attachment straight into a folder.</li>
+          <li>When someone leaves, hand their files to a colleague.</li>
+        </ul>
+      </div>
+      <div class="frame">
+        <div class="frame-bar"><span class="address"><svg class="icon" aria-hidden="true"><use href="#i-lock"/></svg><span>storage.<wbr><span data-domain>example.com</span></span></span></div>
+        <picture class="shot">
+          <source media="(prefers-color-scheme: dark)" srcset="/screens/storage-dark.webp" width="2560" height="1600">
+          <img src="/screens/storage-light.webp" width="2560" height="1600" loading="lazy" decoding="async" alt="CloudySuite Storage showing a team folder as a table of files, with a panel that describes the chosen file.">
+        </picture>
+      </div>
+    </div>
+
+    <div class="app-panel" role="tabpanel" id="panel-account" aria-labelledby="tab-account" hidden>
+      <div class="app-copy">
+        <h3>Account</h3>
+        <p class="host mono">auth.<wbr><span data-domain>example.com</span></p>
+        <p class="instead">Instead of Google Admin.</p>
+        <ul class="plain">
+          <li>Passkeys first, with a password and an authenticator app as the fallback.</li>
+          <li>Admins can require two-step sign-in for everyone.</li>
+          <li>Reset a person's sign-in and hand them a one-time link. It is never emailed, because the only mailbox they have may be the one they can't open.</li>
+          <li>Invite people with a single-use link sent to their address.</li>
+          <li>Add more email domains and aliases.</li>
+          <li>Turn an app off for the whole organisation. Nothing is deleted, and turning it back on restores everything.</li>
+        </ul>
+      </div>
+      <div class="frame">
+        <div class="frame-bar"><span class="address"><svg class="icon" aria-hidden="true"><use href="#i-lock"/></svg><span>auth.<wbr><span data-domain>example.com</span></span></span></div>
+        <picture class="shot">
+          <source media="(prefers-color-scheme: dark)" srcset="/screens/account-dark.webp" width="2560" height="1600">
+          <img src="/screens/account-light.webp" width="2560" height="1600" loading="lazy" decoding="async" alt="CloudySuite Account showing the organisation's people and their email addresses, as an admin sees them.">
+        </picture>
+      </div>
+    </div>
+  </section>
+
+  <section id="deploy" class="band" aria-labelledby="deploy-title">
+    <div class="wrap">
+      <h2 id="deploy-title">Set up in the browser, with nothing to install</h2>
+      <p class="intro">You need a domain on Cloudflare and the Workers Paid plan. The setup wizard links to Cloudflare's guide for each if you don't have them yet.</p>
+
+      <div class="deploy-grid">
+        <ol class="steps">
+          <li><strong>Click Deploy to Cloudflare.</strong> <span>It copies the code to your GitHub or GitLab account and creates the Worker, its database, and its storage.</span></li>
+          <li><strong>Open the Worker's address.</strong> <span>The setup wizard starts there.</span></li>
+          <li><strong>Paste an API token.</strong> <span>The wizard's link opens Cloudflare's token form already filled in. The token stays in your browser tab and is never stored.</span></li>
+          <li><strong>Choose your domain.</strong> <span>The wizard reads your DNS and recommends where the apps should live, with its reasons.</span></li>
+          <li><strong>Turn on mail.</strong> <span>The wizard enables Email Routing and Email Sending and attaches the app addresses. Cloudflare adds the SPF, DKIM, and DMARC records.</span></li>
+          <li><strong>Create the first admin.</strong> <span>Then invite your team from Account.</span></li>
+        </ol>
+
+        <div class="checks">
+          <h3>The wizard checks its own work</h3>
+          <ul class="plain">
+            <li>Each step reads the current state in Cloudflare, makes the change, and reads it again.</li>
+            <li>If the API can't finish a step, you get the exact action, a link to that dashboard page, and a Check again button. It never assumes a manual step worked.</li>
+            <li>It never deletes a DNS record, and it asks before replacing mail routing that's already in use.</li>
+            <li>Only someone with a token for the Worker's own account can finish setup, so a stranger who finds the address can't claim it.</li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Optional setup screenshot. Delete from here to the matching end comment to remove it. -->
+      <div class="frame frame-setup">
+        <div class="frame-bar"><span class="address"><svg class="icon" aria-hidden="true"><use href="#i-lock"/></svg><span>cloudysuite.your-account.workers.dev</span></span></div>
+        <picture class="shot">
+          <source media="(prefers-color-scheme: dark)" srcset="/screens/setup-dark.webp" width="2560" height="1600">
+          <img src="/screens/setup-light.webp" width="2560" height="1600" loading="lazy" decoding="async" alt="The CloudySuite setup wizard on the Worker's workers.dev address, showing its list of steps and the step in progress.">
+        </picture>
+      </div>
+      <!-- End of optional setup screenshot. -->
+    </div>
+  </section>
+
+  <section id="how-it-runs" class="section wrap" aria-labelledby="how-title">
+    <h2 id="how-title">Everything runs in one Worker in your account</h2>
+    <p class="intro">Your data stays in Cloudflare storage on your own account, where you can see it in the dashboard. CloudySuite needs no other service.</p>
+
+    <div class="diagram">
+      <ul class="diagram-in" aria-label="What reaches the Worker">
+        <li class="node"><span class="mono">auth.<wbr><span data-domain>example.com</span></span></li>
+        <li class="node"><span class="mono">mail.<wbr><span data-domain>example.com</span></span></li>
+        <li class="node"><span class="mono">calendar.<wbr><span data-domain>example.com</span></span></li>
+        <li class="node"><span class="mono">storage.<wbr><span data-domain>example.com</span></span></li>
+        <li class="node"><span class="node-title">Inbound mail</span><span class="node-sub">through Email Routing</span></li>
+      </ul>
+      <div class="node node-worker"><span class="node-title">CloudySuite Worker</span><span class="node-sub">routes by hostname</span></div>
+      <ul class="diagram-out" aria-label="What the Worker uses">
+        <li class="node"><span class="node-title">Durable Objects</span><span class="node-sub">one SQLite database per mailbox, drive, and calendar</span></li>
+        <li class="node"><span class="node-title">R2</span><span class="node-sub">attachments, files, and large message bodies</span></li>
+        <li class="node"><span class="node-title">D1</span><span class="node-sub">people, addresses, domains, and access</span></li>
+        <li class="node"><span class="node-title">Email Sending</span><span class="node-sub">outbound mail</span></li>
+      </ul>
+    </div>
+
+  </section>
+
+  <section id="cost" class="section wrap" aria-labelledby="cost-title">
+    <h2 id="cost-title">What it costs to run</h2>
+    <p class="intro">CloudySuite is free. You pay Cloudflare for what your deployment uses, billed to the account rather than per person.</p>
+
+    <dl class="figures">
+      <div>
+        <dt><span class="num">$5</span><span class="unit">a month</span></dt>
+        <dd>The Workers Paid plan's minimum, per account. It includes an allowance of requests, CPU time, Durable Objects, and D1.</dd>
+      </div>
+      <div>
+        <dt><span class="num">3,000</span><span class="unit">emails</span></dt>
+        <dd>Outbound mail included each month with Workers Paid.</dd>
+      </div>
+      <div>
+        <dt><span class="num">$0.35</span><span class="unit">per 1,000</span></dt>
+        <dd>Outbound mail past the included 3,000.</dd>
+      </div>
+    </dl>
+
+    <p class="small footnote">Figures from Cloudflare's docs in November 2026. R2 file storage and usage past the plan's allowance are billed at Cloudflare's rates. See <a href="https://developers.cloudflare.com/workers/platform/pricing/">Workers pricing</a> and <a href="https://developers.cloudflare.com/email-service/platform/pricing/">Email Service pricing</a> for current numbers.</p>
+  </section>
+
+  <section id="limits" class="section wrap" aria-labelledby="limits-title">
+    <h2 id="limits-title">Know this before you deploy</h2>
+    <p class="intro">CloudySuite is new. Some things can't run on Workers, and some aren't built yet.</p>
+
+    <div class="limits">
+      <div class="limit">
+        <h3>No desktop or phone mail apps</h3>
+        <p>Apple Mail and Outlook need IMAP and SMTP servers, which can't run on Workers. Mail is a web app you can install instead.</p>
+      </div>
+      <div class="limit">
+        <h3>Calendars don't sync to phones yet</h3>
+        <p>Phone calendar apps sign in with a plain password, which CloudySuite doesn't allow yet.</p>
+      </div>
+      <div class="limit">
+        <h3>Not end-to-end encrypted</h3>
+        <p>Cloudflare encrypts your data at rest. Cloudflare and your admins can reach it, which is what lets search and rules run on the server.</p>
+      </div>
+      <div class="limit">
+        <h3>Size and recipient caps</h3>
+        <p>A message can be 25 MiB, attachments included, with up to 50 recipients.</p>
+      </div>
+      <div class="limit">
+        <h3>Sending starts slow on a new account</h3>
+        <p>Cloudflare gives new accounts a low daily sending limit and raises it over time. Email Sending is in public beta.</p>
+      </div>
+      <div class="limit">
+        <h3>Updates are applied by hand</h3>
+        <p>The Deploy button makes an independent copy. You apply a release with a few Git commands, and CloudySuite never changes itself.</p>
+      </div>
+      <div class="limit">
+        <h3>No scheduled send or snooze</h3>
+        <p>They aren't in the first release.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="source" class="section wrap source" aria-labelledby="source-title">
+    <div class="source-inner">
+      <h2 id="source-title">Open source under the AGPL</h2>
+      <p>Read the code, run it, and change it. If you run a modified copy for other people, the AGPL asks you to share your changes. The README explains each product decision and the reason for it.</p>
+      <div class="actions">
+        <a class="button" href="https://github.com/Setupless/cloudysuite">View on GitHub</a>
+        <a class="text-link" href="https://github.com/Setupless/cloudysuite#readme">Read the README</a>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <p class="footer-line">
+      <span class="brand"><img src="/icon.svg" alt="" width="20" height="20">CloudySuite</span>
+      <span>AGPL-3.0</span>
+      <a href="https://github.com/Setupless">A Setupless project</a>
+      <a href="https://github.com/Setupless/cloudysuite">GitHub</a>
+    </p>
+    <p class="small">CloudySuite is not affiliated with Cloudflare or Google.</p>
+  </div>
+</footer>
+</body>
+</html>
